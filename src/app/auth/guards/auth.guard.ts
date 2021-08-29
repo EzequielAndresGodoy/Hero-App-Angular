@@ -27,11 +27,6 @@ export class AuthGuard implements CanLoad, CanActivate {
           } )
         );
 
-    // if(this.authService.auth.id) {
-    //   return true
-    // }
-
-    // return true;
   }
 
   canLoad(
@@ -47,10 +42,5 @@ export class AuthGuard implements CanLoad, CanActivate {
           } )
         );
 
-    //   if(this.authService.auth.id) {
-    //     return true
-    //   }
-
-    // return false;
   }
 }
